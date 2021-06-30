@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ 
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+  }
+  
+h1 { font-size: 34px;
+    color: #f8f8f8; 
+  font-weight: 400;
+  margin: 20px 0 14px 0;}
+
+p {
+    color: #646464;
+    font-size: 22px;
+    margin: 0;
+    font-weight:180;
+  }
+
+  img{
+    height: 120px;
+  }
+  /* p2 {
+    color: #949494;
+    color: #20b8ff;
+   
+  } */
+  
+  .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+    width:100vw;
+    
+  }
+
+  #cursor {
+    border-left: .05em solid ;
+    animation: blink .7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  @media all and (max-width:600px){
+  
+    .first{
+    
+      height: calc(100vh + 60px);
+      
+    }
+  }

@@ -1,0 +1,108 @@
+
+.card{
+    width: 21vmax;
+    height: 33.2vmax;
+      display: flex;
+      flex-direction: column;
+      margin: 1.4vmax 0.7vmax 0 0.7vmax;
+      align-items: flex-start;
+      box-shadow: 0 1px 7px 2px rgba(10,16,34,.08);
+      border-radius: 8px;
+      
+  }
+  
+  .img{
+    height: 21vmax ;
+    transition: .5s ease;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .middle{
+    width: 100%;
+    padding: 0 5% 0 5%;
+  }
+  
+  .projectName{
+    color: #3d3d3d;
+    margin: 0.8vmax 0 0vmax 0;
+    font-family: Raleway;
+    font-size: 1.9vmax;
+    font-weight:600;
+  }
+  
+  .projectDesc{
+    font-size: 1.1vmax;
+    font-family: 'Open Sans';
+    margin-top: 0.35vmax;
+  }
+  
+  .date{
+    font-family: 'Open Sans';
+    font-size: 1vmax;
+    margin-bottom: 8px;
+    color:#7d7968;
+  }
+  
+  a:hover {
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-color: #3d3d3d;
+   }
+  a{
+    text-decoration: none;
+  }
+  
+  @media all and (max-width:600px){
+  
+    .container{
+      display: flex;
+      flex-direction: column;
+      width:100vw;
+      margin:  00px 5vw 100px 5vw ;
+    }
+  
+    .image{
+      height: 250px;
+      margin-right: 0;
+      transform: rotate(180deg);
+      position: relative;
+      top: -43px;
+    
+    }
+  
+    .imageContainer{
+      margin:-50px;
+    }
+    
+    .card{
+      width:77vw;
+      height: fit-content;
+      margin: 5vw 0.7vmax 0 0.7vmax;
+      padding-bottom: 4vw;
+    }
+    .img{
+      height:77vw;
+    }
+  
+    .projectName{
+      margin: 0.8vmax 0 0.4vmax 0;
+      font-size: 7.5vw;
+      font-weight:600;
+    }
+    
+    .projectDesc{
+      font-size: 4.2vw;
+      margin-top: 0.35vmax;
+    }
+    
+    .date{
+      font-size: 3.2vw;
+      margin-bottom: 8px;
+    }
+  
+  }
+  
+  
+  
+  
