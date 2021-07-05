@@ -23,7 +23,7 @@ export default class Contact extends React.Component {
 					<div>
 						<p className="cHead">Github</p>
 						<p className="cContent">
-							<a href="https://github.com/tkartik">github.com/kashishbakshi12</a>
+							<a href="https://github.com/kashew-kb">github.com/kashishbakshi12</a>
 						</p>
 					</div>
 					<div>

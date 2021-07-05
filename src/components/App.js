@@ -69,6 +69,25 @@ export default class App extends React.Component {
           <About />
         </div>
 
+        <div className="contain">
+          <div className="call2">
+            <div className="project">
+              <h2
+                className="heading"
+                style={{
+                  zIndex: "2"
+                }}
+              >
+                Curated Projects
+              </h2>
+              <img src={rec1} alt="rec" className="rec1"></img>
+            </div>
+            {Object.keys(this.state.projects).map(key => (
+              <ProjectList key={key} details={this.state.projects[key]} />
+            ))}
+          </div>
+        </div>
+
         <div className="contact">
           <Contact />
          
